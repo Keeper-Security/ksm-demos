@@ -20,10 +20,10 @@ jobs:
             bavsKZY_NufFZGqwyduvGw/file/public.key > file:/tmp/public.key
             
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setup Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v5
         with:
           go-version: '1.18'
 
