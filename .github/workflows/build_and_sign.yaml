@@ -50,7 +50,7 @@ jobs:
         run: ./hello-world
         
       - name: Upload signed binary
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: signed-binary
           path: hello-world.asc
